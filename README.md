@@ -2,7 +2,7 @@
 
 A polished, local-first food inventory for a house. Built with **Tauri 2**, **React + TypeScript**, **Tailwind CSS 4**, and **SQLite** (via Rust). All data stays on your device.
 
-**IF YOU NEED A FOOD INVENTORY TRACKER FOR MOBILE, CHECK OUT [POIROT](https://github.com/occiderunt/poirot)
+**IF YOU NEED A FOOD INVENTORY TRACKER FOR MOBILE, CHECK OUT [POIROT](https://github.com/occiderunt/poirot)**
 
 ## Highlights
 
