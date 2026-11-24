@@ -1,0 +1,45 @@
+{
+  "$schema": "https://schema.tauri.app/config/2",
+  "productName": "Larder",
+  "version": "0.1.0",
+  "identifier": "com.larder.app",
+  "build": {
+    "beforeDevCommand": "npm run dev",
+    "devUrl": "http://localhost:1420",
+    "beforeBuildCommand": "npm run build",
+    "frontendDist": "../dist"
+  },
+  "app": {
+    "windows": [
+      {
+        "title": "Larder",
+        "label": "main",
+        "width": 1340,
+        "height": 880,
+        "minWidth": 980,
+        "minHeight": 620,
+        "resizable": true,
+        "fullscreen": false,
+        "backgroundColor": "#F5F6F2",
+        "center": true
+      }
+    ],
+    "security": {
+      "csp": null
+    }
+  },
+  "bundle": {
+    "active": true,
+    "targets": "all",
+    "icon": [
+      "icons/32x32.png",
+      "icons/128x128.png",
+      "icons/128x128@2x.png",
+      "icons/icon.icns",
+      "icons/icon.ico"
+    ],
+    "category": "Productivity",
+    "shortDescription": "A calmer way to know what's in your kitchen",
+    "longDescription": "Larder is a beautiful, fast food inventory for your home. Track what you have, where it lives, and when it needs to be used."
+  }
+}
